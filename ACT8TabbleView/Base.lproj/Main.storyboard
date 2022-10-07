@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Ford-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ACT8TabbleView" customModuleProvider="target" sceneMemberID="viewController">
@@ -34,7 +34,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOm-Qw-Ki9">
-                                                    <rect key="frame" x="206" y="21" width="178" height="92"/>
+                                                    <rect key="frame" x="206" y="21" width="174" height="32"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -67,7 +67,7 @@
                             <constraint firstItem="KTh-Pf-5eL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zxL-fX-jNm"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="xhu-aR-0bh"/>
+                    <tabBarItem key="tabBarItem" title="Ford" image="car" catalog="system" id="xhu-aR-0bh"/>
                     <connections>
                         <outlet property="table" destination="KTh-Pf-5eL" id="oI2-8r-Vtl"/>
                     </connections>
@@ -75,6 +75,76 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="911.59420289855075" y="43.526785714285715"/>
+        </scene>
+        <!--Mazda-->
+        <scene sceneID="3hc-hj-SmT">
+            <objects>
+                <viewController id="T4P-RK-n9I" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NtC-II-ZeY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qoO-hT-dWb">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="154" id="frD-yd-5bW" customClass="MazdaTableViewCell" customModule="ACT8TabbleView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="154"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="frD-yd-5bW" id="y1p-6H-Bic">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="154"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l0I-4A-Ue7">
+                                                    <rect key="frame" x="30" y="21" width="167" height="112"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="167" id="dDb-46-qgC"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEK-bm-hbd">
+                                                    <rect key="frame" x="215" y="21" width="171" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1S-9z-YOP">
+                                                    <rect key="frame" x="215" y="75" width="171" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="l0I-4A-Ue7" secondAttribute="bottom" constant="10" id="9YH-IC-Hjl"/>
+                                                <constraint firstItem="l0I-4A-Ue7" firstAttribute="top" secondItem="y1p-6H-Bic" secondAttribute="topMargin" constant="10" id="GYp-vl-VA7"/>
+                                                <constraint firstItem="l0I-4A-Ue7" firstAttribute="leading" secondItem="y1p-6H-Bic" secondAttribute="leadingMargin" constant="10" id="GjW-E5-zuJ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageView" destination="l0I-4A-Ue7" id="Auq-5G-EfD"/>
+                                            <outlet property="reseña" destination="d1S-9z-YOP" id="Gnf-WE-G1L"/>
+                                            <outlet property="titulo" destination="oEK-bm-hbd" id="1LG-58-vSd"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uoI-je-04a"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qoO-hT-dWb" firstAttribute="top" secondItem="uoI-je-04a" secondAttribute="top" id="2Yx-xk-sb9"/>
+                            <constraint firstItem="qoO-hT-dWb" firstAttribute="leading" secondItem="uoI-je-04a" secondAttribute="leading" id="bwk-TP-b9J"/>
+                            <constraint firstItem="uoI-je-04a" firstAttribute="bottom" secondItem="qoO-hT-dWb" secondAttribute="bottom" id="ha3-dc-jjd"/>
+                            <constraint firstItem="uoI-je-04a" firstAttribute="trailing" secondItem="qoO-hT-dWb" secondAttribute="trailing" id="yh6-bt-GhU"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mazda" image="car.fill" catalog="system" id="B83-Zr-Gb5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wo8-A2-ciS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="886.95652173913049" y="697.76785714285711"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Uwk-lL-WSs">
@@ -88,6 +158,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="1ze-kx-DE3"/>
+                        <segue destination="T4P-RK-n9I" kind="relationship" relationship="viewControllers" id="HqP-EP-7PK"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gb2-hw-xHY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -96,6 +167,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="car" catalog="system" width="128" height="93"/>
+        <image name="car.fill" catalog="system" width="128" height="93"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
