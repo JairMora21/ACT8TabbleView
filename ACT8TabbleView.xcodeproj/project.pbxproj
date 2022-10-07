@@ -13,6 +13,7 @@
 		FB20F26428EFD3480075B23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB20F26228EFD3480075B23B /* Main.storyboard */; };
 		FB20F26628EFD34D0075B23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB20F26528EFD34D0075B23B /* Assets.xcassets */; };
 		FB20F26928EFD34D0075B23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB20F26728EFD34D0075B23B /* LaunchScreen.storyboard */; };
+		FB20F27228EFD5520075B23B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20F27128EFD5520075B23B /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FB20F26528EFD34D0075B23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB20F26828EFD34D0075B23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB20F26A28EFD34D0075B23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB20F27128EFD5520075B23B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FB20F26528EFD34D0075B23B /* Assets.xcassets */,
 				FB20F26728EFD34D0075B23B /* LaunchScreen.storyboard */,
 				FB20F26A28EFD34D0075B23B /* Info.plist */,
+				FB20F27128EFD5520075B23B /* CustomTableViewCell.swift */,
 			);
 			path = ACT8TabbleView;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				FB20F26128EFD3480075B23B /* ViewController.swift in Sources */,
 				FB20F25D28EFD3480075B23B /* AppDelegate.swift in Sources */,
+				FB20F27228EFD5520075B23B /* CustomTableViewCell.swift in Sources */,
 				FB20F25F28EFD3480075B23B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
