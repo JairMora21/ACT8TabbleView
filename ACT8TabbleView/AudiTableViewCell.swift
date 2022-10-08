@@ -10,6 +10,6 @@ import UIKit
 class AudiTableViewCell: UITableViewCell {
 
     @IBOutlet weak var iconImageView3: UIImageView!
-    @IBOutlet weak var label3: UILabel!
-    
+    @IBOutlet weak var label3: UILabel!    
+    @IBOutlet weak var reseña3: UILabel!
 }

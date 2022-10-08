@@ -14,5 +14,5 @@ class CustomTableViewCell: UITableViewCell {
     
     @IBOutlet weak var label: UILabel!
     
-    
+    @IBOutlet weak var reseña1: UILabel!
 }

@@ -13,15 +13,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     struct Sunset {
         let tittle: String
+        let reseña: String
         let imageName: String
     }
     
     let data: [Sunset] = [
-    Sunset(tittle: "Focus 2018", imageName: "fordfocus"),
-    Sunset(tittle: "Figo 2022", imageName: "fordfigo"),
-    Sunset(tittle: "Mustang 2022", imageName: "fordmustang"),
-    Sunset(tittle: "Raptor 2021", imageName: "fordraptor"),
-    Sunset(tittle: "Fusion 2020", imageName: "fordfusion")
+    Sunset(tittle: "Focus 2018",reseña: "Excelente carro para ciudad, se maneja de buena manera", imageName: "fordfocus"),
+    Sunset(tittle: "Figo 2022",reseña: "Carro mas economico que te brinda excelentes oportunidades", imageName: "fordfigo"),
+    Sunset(tittle: "Mustang 2022",reseña: "Es excelente para los amantes de la velocidad", imageName: "fordmustang"),
+    Sunset(tittle: "Raptor 2021",reseña: "Tiene de todo, tiene muchisimas funciones y es muy bonita", imageName: "fordraptor"),
+    Sunset(tittle: "Fusion 2020",reseña: "Es el carro mas TOP de los sean, por encima del focus y figo", imageName: "fordfusion")
 
 
     ]
@@ -39,6 +40,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let sunset = data[indexPath.row]
         let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
         cell.label.text = sunset.tittle
+        cell.reseña1.text = sunset.reseña
         cell.iconImageView.image = UIImage(named: sunset.imageName)
         return cell
     }
