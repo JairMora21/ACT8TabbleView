@@ -9,6 +9,7 @@ import UIKit
 
 class AudiTableViewCell: UITableViewCell {
 
+    //se mandan a llamar los componentes de imagen y texto del storyboard
     @IBOutlet weak var iconImageView3: UIImageView!
     @IBOutlet weak var label3: UILabel!    
     @IBOutlet weak var reseña3: UILabel!
