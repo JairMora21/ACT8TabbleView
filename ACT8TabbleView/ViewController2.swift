@@ -18,11 +18,11 @@ class ViewController2: UIViewController, UITableViewDataSource, UITableViewDeleg
     }
     
     let data: [Sunset] = [
-    Sunset(tittle: "Focus 2018",reseña: "buena", imageName: "fordfocus"),
-    Sunset(tittle: "Figo 2022",reseña: "buena", imageName: "fordfigo"),
-    Sunset(tittle: "Mustang 2022",reseña: "buena", imageName: "fordmustang"),
-    Sunset(tittle: "Raptor 2021",reseña: "buena", imageName: "fordraptor"),
-    Sunset(tittle: "Fusion 2020",reseña: "buena", imageName: "fordfusion")
+    Sunset(tittle: "Mazda 6 2020",reseña: "Buen carro sedan, mas epacio y mas lujoso que el mazda3", imageName: "mazda62020"),
+    Sunset(tittle: "Mazda CX-5 2021",reseña: "Excelente para una familia, detalles lujosos y mucho espacio", imageName: "mazdacx52021"),
+    Sunset(tittle: "Mazda CX-30 2021",reseña: "Mucho mas lujosa y espaciosa que la mazda cx5", imageName: "mazdacx302021"),
+    Sunset(tittle: "Mazda MX-5 2021",reseña: "Vehiculo deportivo para pasar un buen rato en la ciudad", imageName: "mazdamx52021"),
+    Sunset(tittle: "Mazda 3 2022",reseña: "Excelente auto, equilibrado y completo", imageName: "mazda32022")
 
 
     ]
