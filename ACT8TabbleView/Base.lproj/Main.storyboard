@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Ford-->
+        <!--Entradas-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ACT8TabbleView" customModuleProvider="target" sceneMemberID="viewController">
@@ -81,7 +81,7 @@
                             <constraint firstItem="KTh-Pf-5eL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zxL-fX-jNm"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Ford" image="car" catalog="system" id="xhu-aR-0bh"/>
+                    <tabBarItem key="tabBarItem" title="Entradas" image="car" catalog="system" id="xhu-aR-0bh"/>
                     <connections>
                         <outlet property="table" destination="KTh-Pf-5eL" id="oI2-8r-Vtl"/>
                     </connections>
@@ -90,7 +90,7 @@
             </objects>
             <point key="canvasLocation" x="811.59420289855075" y="-221.65178571428569"/>
         </scene>
-        <!--Mazda-->
+        <!--Bebidas-->
         <scene sceneID="3hc-hj-SmT">
             <objects>
                 <viewController id="T4P-RK-n9I" customClass="ViewController2" customModule="ACT8TabbleView" customModuleProvider="target" sceneMemberID="viewController">
@@ -155,7 +155,7 @@
                             <constraint firstItem="uoI-je-04a" firstAttribute="trailing" secondItem="qoO-hT-dWb" secondAttribute="trailing" id="yh6-bt-GhU"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Mazda" image="car.fill" catalog="system" id="B83-Zr-Gb5"/>
+                    <tabBarItem key="tabBarItem" title="Bebidas" image="car.fill" catalog="system" id="B83-Zr-Gb5"/>
                     <connections>
                         <outlet property="table" destination="qoO-hT-dWb" id="cGc-Ex-Nu3"/>
                     </connections>
@@ -164,7 +164,7 @@
             </objects>
             <point key="canvasLocation" x="853.62318840579712" y="578.57142857142856"/>
         </scene>
-        <!--Audi-->
+        <!--Desayunos-->
         <scene sceneID="k3h-KA-2fO">
             <objects>
                 <viewController id="Ycr-lj-fiP" customClass="ViewController3" customModule="ACT8TabbleView" customModuleProvider="target" sceneMemberID="viewController">
@@ -183,16 +183,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="146"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pst-vz-bhg">
-                                                    <rect key="frame" x="10" y="10" width="214" height="126"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="166" id="NM1-6q-mch"/>
-                                                        <constraint firstAttribute="height" constant="92" id="c87-pC-DlV"/>
-                                                        <constraint firstAttribute="width" constant="150" id="qcm-sm-H3X"/>
-                                                    </constraints>
-                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkr-mC-zZg">
-                                                    <rect key="frame" x="234" y="11" width="160" height="27"/>
+                                                    <rect key="frame" x="234" y="11" width="160" height="28"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -204,15 +196,23 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pst-vz-bhg">
+                                                    <rect key="frame" x="20" y="24" width="172" height="98"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="166" id="NM1-6q-mch"/>
+                                                        <constraint firstAttribute="height" constant="98" id="c87-pC-DlV"/>
+                                                        <constraint firstAttribute="width" constant="172" id="qcm-sm-H3X"/>
+                                                    </constraints>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailingMargin" secondItem="kkr-mC-zZg" secondAttribute="trailing" id="1yS-IK-Ugs"/>
-                                                <constraint firstAttribute="bottom" secondItem="pst-vz-bhg" secondAttribute="bottom" constant="10" id="IZt-v1-mv1"/>
+                                                <constraint firstAttribute="bottom" secondItem="pst-vz-bhg" secondAttribute="bottom" constant="24" id="IZt-v1-mv1"/>
                                                 <constraint firstItem="kkr-mC-zZg" firstAttribute="top" secondItem="2p4-JF-4ks" secondAttribute="topMargin" id="Kgi-ax-kSa"/>
-                                                <constraint firstItem="pst-vz-bhg" firstAttribute="top" secondItem="2p4-JF-4ks" secondAttribute="top" constant="10" id="VAg-DI-vQZ"/>
-                                                <constraint firstItem="kkr-mC-zZg" firstAttribute="leading" secondItem="pst-vz-bhg" secondAttribute="trailing" constant="10" id="c63-NK-4OK"/>
-                                                <constraint firstAttribute="trailing" secondItem="pst-vz-bhg" secondAttribute="trailing" constant="190" id="srV-tj-ao0"/>
-                                                <constraint firstItem="pst-vz-bhg" firstAttribute="leading" secondItem="2p4-JF-4ks" secondAttribute="leading" constant="10" id="v8f-fg-3eO"/>
+                                                <constraint firstItem="pst-vz-bhg" firstAttribute="top" secondItem="2p4-JF-4ks" secondAttribute="top" constant="24" id="VAg-DI-vQZ"/>
+                                                <constraint firstItem="kkr-mC-zZg" firstAttribute="leading" secondItem="pst-vz-bhg" secondAttribute="trailing" constant="42" id="c63-NK-4OK"/>
+                                                <constraint firstAttribute="trailing" secondItem="pst-vz-bhg" secondAttribute="trailing" constant="222" id="srV-tj-ao0"/>
+                                                <constraint firstItem="pst-vz-bhg" firstAttribute="leading" secondItem="2p4-JF-4ks" secondAttribute="leading" constant="20" id="v8f-fg-3eO"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="kkr-mC-zZg" secondAttribute="bottom" constant="96" id="xl7-R8-PZT"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -234,7 +234,7 @@
                             <constraint firstItem="z6o-13-tbQ" firstAttribute="top" secondItem="voz-Gr-3ty" secondAttribute="top" id="haX-OD-pU0"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Audi" image="car.circle" catalog="system" id="oNq-dP-Dyd"/>
+                    <tabBarItem key="tabBarItem" title="Desayunos" image="car.circle" catalog="system" id="oNq-dP-Dyd"/>
                     <connections>
                         <outlet property="table3" destination="z6o-13-tbQ" id="iMs-ox-F7N"/>
                     </connections>

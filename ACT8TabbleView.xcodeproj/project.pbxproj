@@ -66,20 +66,36 @@
 		FB20F25B28EFD3480075B23B /* ACT8TabbleView */ = {
 			isa = PBXGroup;
 			children = (
+				FBC429E7291C6AB1001B38E9 /* ViewCell */,
+				FBC429E6291C6A7D001B38E9 /* ViewsControllers */,
 				FB20F25C28EFD3480075B23B /* AppDelegate.swift */,
 				FB20F25E28EFD3480075B23B /* SceneDelegate.swift */,
-				FB20F26028EFD3480075B23B /* ViewController.swift */,
-				FB20F27428F088EA0075B23B /* MazdaTableViewCell.swift */,
 				FB20F26228EFD3480075B23B /* Main.storyboard */,
-				FB20F27A28F0EA4E0075B23B /* ViewController3.swift */,
 				FB20F26528EFD34D0075B23B /* Assets.xcassets */,
 				FB20F26728EFD34D0075B23B /* LaunchScreen.storyboard */,
 				FB20F26A28EFD34D0075B23B /* Info.plist */,
-				FB20F27128EFD5520075B23B /* CustomTableViewCell.swift */,
-				FB20F27728F0E14D0075B23B /* ViewController2.swift */,
-				FB20F27D28F0EDFF0075B23B /* AudiTableViewCell.swift */,
 			);
 			path = ACT8TabbleView;
+			sourceTree = "<group>";
+		};
+		FBC429E6291C6A7D001B38E9 /* ViewsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB20F27A28F0EA4E0075B23B /* ViewController3.swift */,
+				FB20F27728F0E14D0075B23B /* ViewController2.swift */,
+				FB20F26028EFD3480075B23B /* ViewController.swift */,
+			);
+			path = ViewsControllers;
+			sourceTree = "<group>";
+		};
+		FBC429E7291C6AB1001B38E9 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FB20F27428F088EA0075B23B /* MazdaTableViewCell.swift */,
+				FB20F27D28F0EDFF0075B23B /* AudiTableViewCell.swift */,
+				FB20F27128EFD5520075B23B /* CustomTableViewCell.swift */,
+			);
+			path = ViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
