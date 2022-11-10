@@ -33,18 +33,18 @@
                                                         <constraint firstAttribute="width" constant="150" id="FXq-Wh-Llc"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOm-Qw-Ki9">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOm-Qw-Ki9">
                                                     <rect key="frame" x="216" y="11" width="178" height="26.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="26.5" id="ymF-me-0hC"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Reseña" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bd-AT-y2h">
                                                     <rect key="frame" x="216" y="45" width="174" height="72"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -90,7 +90,7 @@
             </objects>
             <point key="canvasLocation" x="811.59420289855075" y="-221.65178571428569"/>
         </scene>
-        <!--Bebidas-->
+        <!--Desayunos-->
         <scene sceneID="3hc-hj-SmT">
             <objects>
                 <viewController id="T4P-RK-n9I" customClass="ViewController2" customModule="ACT8TabbleView" customModuleProvider="target" sceneMemberID="viewController">
@@ -118,7 +118,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEK-bm-hbd">
                                                     <rect key="frame" x="215" y="21" width="171" height="23"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -155,7 +155,7 @@
                             <constraint firstItem="uoI-je-04a" firstAttribute="trailing" secondItem="qoO-hT-dWb" secondAttribute="trailing" id="yh6-bt-GhU"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Bebidas" image="car.fill" catalog="system" id="B83-Zr-Gb5"/>
+                    <tabBarItem key="tabBarItem" title="Desayunos" image="car.fill" catalog="system" id="B83-Zr-Gb5"/>
                     <connections>
                         <outlet property="table" destination="qoO-hT-dWb" id="cGc-Ex-Nu3"/>
                     </connections>
@@ -164,7 +164,7 @@
             </objects>
             <point key="canvasLocation" x="853.62318840579712" y="578.57142857142856"/>
         </scene>
-        <!--Desayunos-->
+        <!--Bebidas-->
         <scene sceneID="k3h-KA-2fO">
             <objects>
                 <viewController id="Ycr-lj-fiP" customClass="ViewController3" customModule="ACT8TabbleView" customModuleProvider="target" sceneMemberID="viewController">
@@ -185,14 +185,14 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkr-mC-zZg">
                                                     <rect key="frame" x="234" y="11" width="160" height="28"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reseña" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RkQ-Pg-xAb">
                                                     <rect key="frame" x="234" y="45" width="160" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -234,7 +234,7 @@
                             <constraint firstItem="z6o-13-tbQ" firstAttribute="top" secondItem="voz-Gr-3ty" secondAttribute="top" id="haX-OD-pU0"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Desayunos" image="car.circle" catalog="system" id="oNq-dP-Dyd"/>
+                    <tabBarItem key="tabBarItem" title="Bebidas" image="car.circle" catalog="system" id="oNq-dP-Dyd"/>
                     <connections>
                         <outlet property="table3" destination="z6o-13-tbQ" id="iMs-ox-F7N"/>
                     </connections>

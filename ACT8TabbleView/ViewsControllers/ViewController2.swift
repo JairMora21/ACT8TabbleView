@@ -21,11 +21,13 @@ class ViewController2: UIViewController, UITableViewDataSource, UITableViewDeleg
     
     // se crea el arreglo "Data" aqui vendran los datos de nombre del carro, reseña, año y foto
     let data: [Sunset] = [
-    Sunset(tittle: "Mazda 6 2020",reseña: "Buen carro sedan, mas epacio y mas lujoso que el mazda3", imageName: "mazda62020"),
-    Sunset(tittle: "Mazda CX-5 2021",reseña: "Excelente para una familia, detalles lujosos y mucho espacio", imageName: "mazdacx52021"),
-    Sunset(tittle: "Mazda CX-30 2021",reseña: "Mucho mas lujosa y espaciosa que la mazda cx5", imageName: "mazdacx302021"),
-    Sunset(tittle: "Mazda MX-5 2021",reseña: "Vehiculo deportivo para pasar un buen rato en la ciudad", imageName: "mazdamx52021"),
-    Sunset(tittle: "Mazda 3 2022",reseña: "Excelente auto, equilibrado y completo", imageName: "mazda32022")
+    Sunset(tittle: "Chilaquiles - $110",reseña: "Chilaquiles divorciados, rojos o verdes, pidelos a tu gusto!", imageName: "Chilaquiles"),
+    Sunset(tittle: "Enchiladas (4) - $99",reseña: "Deliciosas enchiladas rojas, pidelas con pollo o carne", imageName: "Enchiladas"),
+    Sunset(tittle: "Huevos - $89",reseña: "Huevos revueltos, a la mexicana o con jamon,(incluye frijoles)", imageName: "huevos"),
+    Sunset(tittle: "Panini $75",reseña: "Delicioso panini de pollo, res o jamon ", imageName: "Panini"),
+        Sunset(tittle: "Sandwich $69",reseña: "Sandwich de jamon, pollo, milanesa (incluye jitomate, lechuja y aguacate)", imageName: "sandwich"),
+    Sunset(tittle: "Sopes (3) - $79",reseña: "Pidelos a tu gusto ya se de carne desebrada, frijoles, queso y pollo", imageName: "sopes")
+
 
 
     ]

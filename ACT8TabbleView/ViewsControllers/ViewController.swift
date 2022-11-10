@@ -21,11 +21,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     // se crea el arreglo "Data" aqui vendran los datos de nombre del carro, reseña, año y foto
     let data: [Sunset] = [
-    Sunset(tittle: "Focus 2018",reseña: "Excelente carro para ciudad, se maneja de buena manera", imageName: "fordfocus"),
-    Sunset(tittle: "Figo 2022",reseña: "Carro mas economico que te brinda excelentes oportunidades", imageName: "fordfigo"),
-    Sunset(tittle: "Mustang 2022",reseña: "Es excelente para los amantes de la velocidad", imageName: "fordmustang"),
-    Sunset(tittle: "Raptor 2021",reseña: "Tiene de todo, tiene muchisimas funciones y es muy bonita", imageName: "fordraptor"),
-    Sunset(tittle: "Fusion 2020",reseña: "Es el carro mas TOP de los sean, por encima del focus y figo", imageName: "fordfusion")
+    Sunset(tittle: "Queso fundido - $79",reseña: "Delicioso queso fundido excelente para acompañarlo con tu comida", imageName: "quesoFundido"),
+    Sunset(tittle: "Quesadillas (3) - $69",reseña: "Buena opcion para comer algo antes de que llegue el plato fuerte!", imageName: "Quesadillas"),
+    Sunset(tittle: "Chorizo - $89",reseña: "Orden de chorizo para acompañar tu platillo", imageName: "Chorizo"),
+    Sunset(tittle: "Frijoles - $69",reseña: "Orden de frijoles recien hechos!", imageName: "frijoles")
 
 
     ]

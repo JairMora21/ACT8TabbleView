@@ -21,11 +21,10 @@ class ViewController3: UIViewController, UITableViewDataSource, UITableViewDeleg
     
     // se crea el arreglo "Data" aqui vendran los datos de nombre del carro, reseña, año y foto
     let data3: [Sunset3] = [
-        Sunset3(tittle3: "Audi TT 2020",reseña3: "Ecxelente auto deportivo, una opcion mas barata al R8", imageName3: "auditt2020"),
-        Sunset3(tittle3: "Audi S5 2021",reseña3: "Excelente auto sedan en el cual tendras todos los lujos", imageName3: "audis52021"),
-        Sunset3(tittle3: "Audi R8 2022",reseña3: "Uno de los mejores carros del mundo, en cuanto a potencia y diseño", imageName3: "audir82022"),
-        Sunset3(tittle3: "Audi Q5 2021",reseña3: "Excelente para una familia, muy bonita y moderna", imageName3: "audiq52021"),
-        Sunset3(tittle3: "Audi A4 2020",reseña3: "Buen auto sedan, muy bonito a la vista y lujoso", imageName3: "audia42020"),
+        Sunset3(tittle3: "Aguas de sabor - $20",reseña3: "Variedades de agua, horchata, jamaica, piña y limon", imageName3: "AguasFrescas"),
+        Sunset3(tittle3: "Refrescos - $20",reseña3: "Variedades de refresco como coca-cola, fanta y manzanita ", imageName3: "Refrescos"),
+        Sunset3(tittle3: "Agua natural - $15",reseña3: "Agua natural", imageName3: "AguaNatural"),
+      
 
 
 
