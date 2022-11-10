@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AudiTableViewCell: UITableViewCell {
+class BebidasTableViewCell: UITableViewCell {
 
     //se mandan a llamar los componentes de imagen y texto del storyboard
     @IBOutlet weak var iconImageView3: UIImageView!

@@ -46,7 +46,7 @@ class ViewController2: UIViewController, UITableViewDataSource, UITableViewDeleg
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //se crea la variable sunset y cell para apoyarnos a despues poner los datos
         let sunset = data[indexPath.row]
-        let cell = table.dequeueReusableCell(withIdentifier: "cell2", for: indexPath) as! MazdaTableViewCell
+        let cell = table.dequeueReusableCell(withIdentifier: "cell2", for: indexPath) as! DesayunosTableViewCell
         //se manda a llamar el TableViewCell para poder asignar la informacion correspondiente
         cell.titulo.text = sunset.tittle
         cell.reseña.text = sunset.reseña

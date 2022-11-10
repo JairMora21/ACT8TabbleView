@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="134" id="Dmq-2d-VBO" customClass="CustomTableViewCell" customModule="ACT8TabbleView" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="134" id="Dmq-2d-VBO" customClass="EntradasTableViewCell" customModule="ACT8TabbleView" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="134"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dmq-2d-VBO" id="rpn-2p-crx">
@@ -81,7 +81,7 @@
                             <constraint firstItem="KTh-Pf-5eL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zxL-fX-jNm"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Entradas" image="car" catalog="system" id="xhu-aR-0bh"/>
+                    <tabBarItem key="tabBarItem" title="Entradas" image="applelogo" catalog="system" id="xhu-aR-0bh"/>
                     <connections>
                         <outlet property="table" destination="KTh-Pf-5eL" id="oI2-8r-Vtl"/>
                     </connections>
@@ -102,7 +102,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell2" rowHeight="154" id="frD-yd-5bW" customClass="MazdaTableViewCell" customModule="ACT8TabbleView" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell2" rowHeight="154" id="frD-yd-5bW" customClass="DesayunosTableViewCell" customModule="ACT8TabbleView" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="154"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="frD-yd-5bW" id="y1p-6H-Bic">
@@ -155,7 +155,7 @@
                             <constraint firstItem="uoI-je-04a" firstAttribute="trailing" secondItem="qoO-hT-dWb" secondAttribute="trailing" id="yh6-bt-GhU"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Desayunos" image="car.fill" catalog="system" id="B83-Zr-Gb5"/>
+                    <tabBarItem key="tabBarItem" title="Desayunos" image="filemenu.and.selection" catalog="system" id="B83-Zr-Gb5"/>
                     <connections>
                         <outlet property="table" destination="qoO-hT-dWb" id="cGc-Ex-Nu3"/>
                     </connections>
@@ -176,7 +176,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell3" rowHeight="146" id="xxe-DV-g4I" customClass="AudiTableViewCell" customModule="ACT8TabbleView" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell3" rowHeight="146" id="xxe-DV-g4I" customClass="BebidasTableViewCell" customModule="ACT8TabbleView" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="146"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xxe-DV-g4I" id="2p4-JF-4ks">
@@ -234,7 +234,7 @@
                             <constraint firstItem="z6o-13-tbQ" firstAttribute="top" secondItem="voz-Gr-3ty" secondAttribute="top" id="haX-OD-pU0"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Bebidas" image="car.circle" catalog="system" id="oNq-dP-Dyd"/>
+                    <tabBarItem key="tabBarItem" title="Bebidas" image="flame" catalog="system" id="oNq-dP-Dyd"/>
                     <connections>
                         <outlet property="table3" destination="z6o-13-tbQ" id="iMs-ox-F7N"/>
                     </connections>
@@ -265,9 +265,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="car" catalog="system" width="128" height="93"/>
-        <image name="car.circle" catalog="system" width="128" height="121"/>
-        <image name="car.fill" catalog="system" width="128" height="93"/>
+        <image name="applelogo" catalog="system" width="103" height="128"/>
+        <image name="filemenu.and.selection" catalog="system" width="128" height="93"/>
+        <image name="flame" catalog="system" width="108" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

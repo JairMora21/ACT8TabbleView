@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CustomTableViewCell: UITableViewCell {
+class EntradasTableViewCell: UITableViewCell {
 
     //se mandan a llamar los componentes de imagen y texto del storyboard
 

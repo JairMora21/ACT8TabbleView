@@ -21,7 +21,7 @@ class ViewController3: UIViewController, UITableViewDataSource, UITableViewDeleg
     
     // se crea el arreglo "Data" aqui vendran los datos de nombre del carro, reseña, año y foto
     let data3: [Sunset3] = [
-        Sunset3(tittle3: "Aguas de sabor - $20",reseña3: "Variedades de agua, horchata, jamaica, piña y limon", imageName3: "AguasFrescas"),
+        Sunset3(tittle3: "Agua sabor - $20",reseña3: "Variedades de agua, horchata, jamaica, piña y limon", imageName3: "AguasFrescas"),
         Sunset3(tittle3: "Refrescos - $20",reseña3: "Variedades de refresco como coca-cola, fanta y manzanita ", imageName3: "Refrescos"),
         Sunset3(tittle3: "Agua natural - $15",reseña3: "Agua natural", imageName3: "AguaNatural"),
       
@@ -44,7 +44,7 @@ class ViewController3: UIViewController, UITableViewDataSource, UITableViewDeleg
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //se crea la variable sunset y cell para apoyarnos a despues poner los datos
         let sunset3 = data3[indexPath.row]
-        let cell3 = table3.dequeueReusableCell(withIdentifier: "cell3", for: indexPath) as! AudiTableViewCell
+        let cell3 = table3.dequeueReusableCell(withIdentifier: "cell3", for: indexPath) as! BebidasTableViewCell
         //se manda a llamar el TableViewCell para poder asignar la informacion correspondiente
         cell3.label3.text = sunset3.tittle3
         cell3.reseña3.text = sunset3.reseña3

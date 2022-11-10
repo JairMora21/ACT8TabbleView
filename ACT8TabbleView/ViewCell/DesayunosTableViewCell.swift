@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MazdaTableViewCell: UITableViewCell {
+class DesayunosTableViewCell: UITableViewCell {
 
     //se mandan a llamar los componentes de imagen y texto del storyboard
 

@@ -13,15 +13,15 @@
 		FB20F26428EFD3480075B23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB20F26228EFD3480075B23B /* Main.storyboard */; };
 		FB20F26628EFD34D0075B23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB20F26528EFD34D0075B23B /* Assets.xcassets */; };
 		FB20F26928EFD34D0075B23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB20F26728EFD34D0075B23B /* LaunchScreen.storyboard */; };
-		FB20F27228EFD5520075B23B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20F27128EFD5520075B23B /* CustomTableViewCell.swift */; };
-		FB20F27528F088EA0075B23B /* MazdaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20F27428F088EA0075B23B /* MazdaTableViewCell.swift */; };
+		FB20F27228EFD5520075B23B /* EntradasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20F27128EFD5520075B23B /* EntradasTableViewCell.swift */; };
+		FB20F27528F088EA0075B23B /* DesayunosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20F27428F088EA0075B23B /* DesayunosTableViewCell.swift */; };
 		FB20F27828F0E14D0075B23B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20F27728F0E14D0075B23B /* ViewController2.swift */; };
 		FB20F27B28F0EA4E0075B23B /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20F27A28F0EA4E0075B23B /* ViewController3.swift */; };
-		FB20F27E28F0EDFF0075B23B /* AudiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20F27D28F0EDFF0075B23B /* AudiTableViewCell.swift */; };
+		FB20F27E28F0EDFF0075B23B /* BebidasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20F27D28F0EDFF0075B23B /* BebidasTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FB20F25928EFD3480075B23B /* ACT8TabbleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACT8TabbleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB20F25928EFD3480075B23B /* Actividad14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Actividad14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB20F25C28EFD3480075B23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB20F25E28EFD3480075B23B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FB20F26028EFD3480075B23B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,11 +29,11 @@
 		FB20F26528EFD34D0075B23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB20F26828EFD34D0075B23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB20F26A28EFD34D0075B23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB20F27128EFD5520075B23B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		FB20F27428F088EA0075B23B /* MazdaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazdaTableViewCell.swift; sourceTree = "<group>"; };
+		FB20F27128EFD5520075B23B /* EntradasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntradasTableViewCell.swift; sourceTree = "<group>"; };
+		FB20F27428F088EA0075B23B /* DesayunosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesayunosTableViewCell.swift; sourceTree = "<group>"; };
 		FB20F27728F0E14D0075B23B /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		FB20F27A28F0EA4E0075B23B /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
-		FB20F27D28F0EDFF0075B23B /* AudiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiTableViewCell.swift; sourceTree = "<group>"; };
+		FB20F27D28F0EDFF0075B23B /* BebidasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebidasTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		FB20F25A28EFD3480075B23B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB20F25928EFD3480075B23B /* ACT8TabbleView.app */,
+				FB20F25928EFD3480075B23B /* Actividad14.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,9 +91,9 @@
 		FBC429E7291C6AB1001B38E9 /* ViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				FB20F27428F088EA0075B23B /* MazdaTableViewCell.swift */,
-				FB20F27D28F0EDFF0075B23B /* AudiTableViewCell.swift */,
-				FB20F27128EFD5520075B23B /* CustomTableViewCell.swift */,
+				FB20F27428F088EA0075B23B /* DesayunosTableViewCell.swift */,
+				FB20F27D28F0EDFF0075B23B /* BebidasTableViewCell.swift */,
+				FB20F27128EFD5520075B23B /* EntradasTableViewCell.swift */,
 			);
 			path = ViewCell;
 			sourceTree = "<group>";
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FB20F25828EFD3480075B23B /* ACT8TabbleView */ = {
+		FB20F25828EFD3480075B23B /* Actividad14 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB20F26D28EFD34D0075B23B /* Build configuration list for PBXNativeTarget "ACT8TabbleView" */;
+			buildConfigurationList = FB20F26D28EFD34D0075B23B /* Build configuration list for PBXNativeTarget "Actividad14" */;
 			buildPhases = (
 				FB20F25528EFD3480075B23B /* Sources */,
 				FB20F25628EFD3480075B23B /* Frameworks */,
@@ -113,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = ACT8TabbleView;
+			name = Actividad14;
 			productName = ACT8TabbleView;
-			productReference = FB20F25928EFD3480075B23B /* ACT8TabbleView.app */;
+			productReference = FB20F25928EFD3480075B23B /* Actividad14.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FB20F25428EFD3480075B23B /* Build configuration list for PBXProject "ACT8TabbleView" */;
+			buildConfigurationList = FB20F25428EFD3480075B23B /* Build configuration list for PBXProject "ACT8TabbeView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FB20F25828EFD3480075B23B /* ACT8TabbleView */,
+				FB20F25828EFD3480075B23B /* Actividad14 */,
 			);
 		};
 /* End PBXProject section */
@@ -168,11 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB20F27E28F0EDFF0075B23B /* AudiTableViewCell.swift in Sources */,
+				FB20F27E28F0EDFF0075B23B /* BebidasTableViewCell.swift in Sources */,
 				FB20F26128EFD3480075B23B /* ViewController.swift in Sources */,
-				FB20F27528F088EA0075B23B /* MazdaTableViewCell.swift in Sources */,
+				FB20F27528F088EA0075B23B /* DesayunosTableViewCell.swift in Sources */,
 				FB20F25D28EFD3480075B23B /* AppDelegate.swift in Sources */,
-				FB20F27228EFD5520075B23B /* CustomTableViewCell.swift in Sources */,
+				FB20F27228EFD5520075B23B /* EntradasTableViewCell.swift in Sources */,
 				FB20F25F28EFD3480075B23B /* SceneDelegate.swift in Sources */,
 				FB20F27B28F0EA4E0075B23B /* ViewController3.swift in Sources */,
 				FB20F27828F0E14D0075B23B /* ViewController2.swift in Sources */,
@@ -356,7 +356,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FB20F25428EFD3480075B23B /* Build configuration list for PBXProject "ACT8TabbleView" */ = {
+		FB20F25428EFD3480075B23B /* Build configuration list for PBXProject "ACT8TabbeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB20F26B28EFD34D0075B23B /* Debug */,
@@ -365,7 +365,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB20F26D28EFD34D0075B23B /* Build configuration list for PBXNativeTarget "ACT8TabbleView" */ = {
+		FB20F26D28EFD34D0075B23B /* Build configuration list for PBXNativeTarget "Actividad14" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB20F26E28EFD34D0075B23B /* Debug */,

@@ -45,7 +45,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
        
         //se crea la variable sunset y cell para apoyarnos a despues poner los datos
         let sunset = data[indexPath.row]
-        let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
+        let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! EntradasTableViewCell
         //se manda a llamar el TableViewCell para poder asignar la informacion correspondiente
         cell.label.text = sunset.tittle
         cell.reseña1.text = sunset.reseña
